@@ -2,7 +2,7 @@
 The assignments were originally written in C so I thought it would be fun to see how much easier it would be to redo those assignments in Python,
 with all it's useful modules and builtin methods and most importantly using OOP.
 
-Ngl, the assignments become quite fun to do when you have access to the conveniences Python has to offer, even though I'm still new to the language.
+Ngl, the assignments become quite fun to do when you have access to the conveniences Python and OOP has to offer, even though I'm still new to the language.
 
 ## Within each folder there are the:
 - Python source code files
