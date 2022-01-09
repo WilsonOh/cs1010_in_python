@@ -1,3 +1,8 @@
+/*
+ * The Fill assignment rewritten using C Structs to make the code cleaner and easier to read
+ */
+
+
 #include <stdio.h>
 #include "cs1010.h"
 #include <stdbool.h>
@@ -77,13 +82,13 @@ bool is_same_color(Pixel first, Pixel second) {
 }
 
 void update_color(Pixel **pixels, Pixel fill_pixel, int x, int y) {
-  pixels[y][x].red = fill_pixel.red; 
+  pixels[y][x].red = fill_pixel.red;
   pixels[y][x].green = fill_pixel.green;
   pixels[y][x].blue = fill_pixel.blue;
 }
 
 bool is_same_fill(Pixel **pixels, Pixel fill_pixel) {
-  return (pixels[fill_pixel.y][fill_pixel.x].red == fill_pixel.red &&  
+  return (pixels[fill_pixel.y][fill_pixel.x].red == fill_pixel.red &&
       pixels[fill_pixel.y][fill_pixel.x].green == fill_pixel.green &&
       pixels[fill_pixel.y][fill_pixel.x].blue == fill_pixel.blue);
   return false;
