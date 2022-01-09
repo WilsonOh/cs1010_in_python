@@ -8,8 +8,8 @@ Ngl, the assignments become quite fun to do when you have access to the convenie
 - Python source code files
 - Input & output files for testing
 - Question.md file 
-- Folder containing the original assignment files<br />
-The entry point to each program is the main.py file
+- Folder containing the original assignment files
+- **The entry point to each program is the main.py file**
 
 -------------------------------------------------------------------------------
 - [Link to CS1010 module website](https://nus-cs1010.github.io/2122-s1/)
