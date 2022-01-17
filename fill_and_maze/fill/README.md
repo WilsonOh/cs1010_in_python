@@ -7,4 +7,4 @@
 
 ## Steps
 1. Install `viu` via `brew install viu` or use your OS's package manager
-2. Run the command `python fill.py < inputs/fill.*[NUM]*.in | viu -`
+2. Run the command `python fill.py < inputs/fill.[NUM].in | viu -`
